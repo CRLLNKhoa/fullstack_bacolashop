@@ -1,0 +1,28 @@
+.searchResult{
+    display: none;
+}
+
+.inputSearch:focus ~ .searchResult {
+    display: block;
+}
+
+
+/* width */
+.listProducts::-webkit-scrollbar {
+    width: 2px;
+  }
+  
+  /* Track */
+  .listProducts::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  .listProducts::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  .listProducts::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }

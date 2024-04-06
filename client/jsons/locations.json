@@ -1,0 +1,307 @@
+[
+    {
+        "id": "hn_123",
+        "name": "Hà Nội",
+        "min": 20
+    },
+    {
+        "id": "hcm_456",
+        "name": "Hồ Chí Minh",
+        "min": 30
+    },
+    {
+        "id": "dn_789",
+        "name": "Đà Nẵng",
+        "min": 10
+    },
+    {
+        "id": "hp_012",
+        "name": "Hải Phòng",
+        "min": 40
+    },
+    {
+        "id": "ct_345",
+        "name": "Cần Thơ",
+        "min": 30
+    },
+    {
+        "id": "ag_678",
+        "name": "An Giang",
+        "min": 20
+    },
+    {
+        "id": "brvt_910",
+        "name": "Bà Rịa - Vũng Tàu",
+        "min": 30
+    },
+    {
+        "id": "bl_111",
+        "name": "Bạc Liêu",
+        "min": 20
+    },
+    {
+        "id": "bg_121",
+        "name": "Bắc Giang",
+        "min": 10
+    },
+    {
+        "id": "bk_131",
+        "name": "Bắc Kạn",
+        "min": 40
+    },
+    {
+        "id": "bn_141",
+        "name": "Bắc Ninh",
+        "min": 30
+    },
+    {
+        "id": "bt_151",
+        "name": "Bình Định",
+        "min": 10
+    },
+    {
+        "id": "bd_161",
+        "name": "Bình Dương",
+        "min": 20
+    },
+    {
+        "id": "bp_171",
+        "name": "Bình Phước",
+        "min": 30
+    },
+    {
+        "id": "btu_181",
+        "name": "Bình Thuận",
+        "min": 40
+    },
+    {
+        "id": "cm_191",
+        "name": "Cà Mau",
+        "min": 10
+    },
+    {
+        "id": "cb_202",
+        "name": "Cao Bằng",
+        "min": 20
+    },
+    {
+        "id": "dl_212",
+        "name": "Đắk Lắk",
+        "min": 30
+    },
+    {
+        "id": "dnong_222",
+        "name": "Đắk Nông",
+        "min": 40
+    },
+    {
+        "id": "db_232",
+        "name": "Điện Biên",
+        "min": 10
+    },
+    {
+        "id": "dno_242",
+        "name": "Đồng Nai",
+        "min": 20
+    },
+    {
+        "id": "dth_252",
+        "name": "Đồng Tháp",
+        "min": 30
+    },
+    {
+        "id": "gl_262",
+        "name": "Gia Lai",
+        "min": 40
+    },
+    {
+        "id": "hg_272",
+        "name": "Hà Giang",
+        "min": 10
+    },
+    {
+        "id": "hn_282",
+        "name": "Hà Nam",
+        "min": 20
+    },
+    {
+        "id": "ht_292",
+        "name": "Hà Tĩnh",
+        "min": 30
+    },
+    {
+        "id": "hd_302",
+        "name": "Hải Dương",
+        "min": 40
+    },
+    {
+        "id": "hg_312",
+        "name": "Hậu Giang",
+        "min": 10
+    },
+    {
+        "id": "hb_322",
+        "name": "Hòa Bình",
+        "min": 20
+    },
+    {
+        "id": "hy_332",
+        "name": "Hưng Yên",
+        "min": 30
+    },
+    {
+        "id": "kh_342",
+        "name": "Khánh Hòa",
+        "min": 40
+    },
+    {
+        "id": "kg_352",
+        "name": "Kiên Giang",
+        "min": 10
+    },
+    {
+        "id": "kt_362",
+        "name": "Kon Tum",
+        "min": 20
+    },
+    {
+        "id": "lc_372",
+        "name": "Lai Châu",
+        "min": 30
+    },
+    {
+        "id": "ld_382",
+        "name": "Lâm Đồng",
+        "min": 40
+    },
+    {
+        "id": "ls_392",
+        "name": "Lạng Sơn",
+        "min": 10
+    },
+    {
+        "id": "lc_402",
+        "name": "Lào Cai",
+        "min": 20
+    },
+    {
+        "id": "la_412",
+        "name": "Long An",
+        "min": 30
+    },
+    {
+        "id": "nd_422",
+        "name": "Nam Định",
+        "min": 40
+    },
+    {
+        "id": "na_432",
+        "name": "Nghệ An",
+        "min": 10
+    },
+    {
+        "id": "nb_442",
+        "name": "Ninh Bình",
+        "min": 20
+    },
+    {
+        "id": "nt_452",
+        "name": "Ninh Thuận",
+        "min": 30
+    },
+    {
+        "id": "pt_462",
+        "name": "Phú Thọ",
+        "min": 40
+    },
+    {
+        "id": "qb_472",
+        "name": "Quảng Bình",
+        "min": 10
+    },
+    {
+        "id": "qn_482",
+        "name": "Quảng Nam",
+        "min": 20
+    },
+    {
+        "id": "qng_492",
+        "name": "Quảng Ngãi",
+        "min": 30
+    },
+    {
+        "id": "qni_502",
+        "name": "Quảng Ninh",
+        "min": 40
+    },
+    {
+        "id": "qtr_512",
+        "name": "Quảng Trị",
+        "min": 10
+    },
+    {
+        "id": "st_522",
+        "name": "Sóc Trăng",
+        "min": 20
+    },
+    {
+        "id": "sl_532",
+        "name": "Sơn La",
+        "min": 30
+    },
+    {
+        "id": "tn_542",
+        "name": "Tây Ninh",
+        "min": 40
+    },
+    {
+        "id": "tb_552",
+        "name": "Thái Bình",
+        "min": 10
+    },
+    {
+        "id": "tng_562",
+        "name": "Thái Nguyên",
+        "min": 20
+    },
+    {
+        "id": "th_572",
+        "name": "Thanh Hóa",
+        "min": 30
+    },
+    {
+        "id": "tth_582",
+        "name": "Thừa Thiên Huế",
+        "min": 40
+    },
+    {
+        "id": "tg_592",
+        "name": "Tiền Giang",
+        "min": 10
+    },
+    {
+        "id": "tv_602",
+        "name": "Trà Vinh",
+        "min": 20
+    },
+    {
+        "id": "tq_612",
+        "name": "Tuyên Quang",
+        "min": 30
+    },
+    {
+        "id": "vl_622",
+        "name": "Vĩnh Long",
+        "min": 40
+    },
+    {
+        "id": "vp_632",
+        "name": "Vĩnh Phúc",
+        "min": 10
+    },
+    {
+        "id": "yb_642",
+        "name": "Yên Bái",
+        "min": 20
+    }
+]
