@@ -13,8 +13,8 @@ export default function Cart() {
           99
         </span>
       </div>
-      {/* <CartEmpty /> */}
-      <CartHaveProduct />
+      <CartEmpty />
+      {/* <CartHaveProduct /> */}
     </div>
   );
 }

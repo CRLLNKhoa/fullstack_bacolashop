@@ -6,7 +6,7 @@ import Account from "./account";
 
 export default function eaderStore() {
   return (
-    <header className="flex items-center justify-between w-full max-w-[1200px] px-[15px] mx-auto mt-6">
+    <header className="hidden lg:flex items-center justify-between w-full max-w-[1200px] px-[15px] mx-auto mt-6">
       <Link href="/">
         <div className="flex flex-col">
           <img

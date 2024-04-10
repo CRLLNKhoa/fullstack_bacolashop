@@ -17,9 +17,9 @@ export default function SelectLocation() {
       <DialogTrigger asChild>
         <div className="h-[60px] border px-4 py-2 cursor-pointer hover:shadow-md duration-500 rounded-lg flex items-center gap-4">
           <div className="flex flex-col">
-            <p className="text-xs text-muted-foreground">Your Location</p>
+            <p className="text-xs text-muted-foreground">Vị trí của bạn</p>
             <p className="text-sm text-background-primary font-semibold">
-              Select a Location
+            Chọn một vị trí
             </p>
           </div>
           <FaAngleDown className="text-muted-foreground" />
@@ -27,9 +27,9 @@ export default function SelectLocation() {
       </DialogTrigger>
       <DialogContent>
         <DialogHeader>
-          <DialogTitle>Choose your Delivery Location</DialogTitle>
+          <DialogTitle>Chọn địa điểm giao hàng của bạn</DialogTitle>
           <DialogDescription>
-            Enter your address and we will specify the offer for your area.
+          Nhập địa chỉ của bạn và chúng tôi sẽ chỉ định ưu đãi cho khu vực của bạn.
           </DialogDescription>
         </DialogHeader>
         <div className="flex flex-col gap-4">
@@ -38,7 +38,7 @@ export default function SelectLocation() {
             <input
               className="w-full bg-transparent outline-none"
               type="text"
-              placeholder="Search your area"
+              placeholder="Tìm kiếm khu vực của bạn"
             />
           </div>
           <div className="max-h-[330px] overflow-y-auto">

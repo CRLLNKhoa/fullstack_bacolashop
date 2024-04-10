@@ -17,19 +17,19 @@ export default function TopNav() {
             className="hover:text-background-second duration-300"
             href="/account"
           >
-            My account
+            Tài khoản
           </Link>
           <Link
             className="hover:text-background-second duration-300"
             href="/wishlist"
           >
-            Wishlist
+            Yêu thích
           </Link>
           <Link
             className="hover:text-background-second duration-300"
             href="/order-tracking"
           >
-            Order Tracking
+            Đơn hàng
           </Link>
         </div>
         <div className="flex items-center h-full border-r pr-2 ml-auto mr-4">
@@ -39,10 +39,10 @@ export default function TopNav() {
               alt="secure-icon"
               className="w-5 h-5 opacity-80"
             />
-            <p>100% Secure delivery without contacting the courier</p>
+            <p>Giao hàng an toàn 100% mà không cần liên hệ với người chuyển phát nhanh</p>
           </div>
           <div className="flex items-center ml-2 gap-2">
-            <p>Need help? Call Us:</p>
+            <p>Cần giúp đỡ? Gọi cho chúng tôi:</p>
             <a className="font-bold text-background-second" href="tel:+0336284229">
               + 0336 284
             </a>

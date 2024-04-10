@@ -36,14 +36,14 @@ export default function SearchProduct() {
         onChange={(e) => setSearchTerm(e.target.value)}
         type="text"
         className="h-full w-full outline-none bg-transparent inputSearch"
-        placeholder="Search for products..."
+        placeholder="Tìm kiếm sản phẩm..."
       />
       {isLoading ? (
         <AiOutlineLoading3Quarters className="w-7 h-7 animate-spin" />
       ) : (
         <RiSearchLine className="w-7 h-7 text-muted-foreground cursor-pointer hover:text-background-second duration-500" />
       )}
-      <div className={cn("searchResult invisible absolute top-[105%] left-0 right-0 rounded-lg border p-2 w-full max-h-[240px] overflow-y-auto",searchValue !== "" && "visible")}>
+      <div className={cn("searchResult invisible absolute bg-white top-[105%] z-50 left-0 right-0 rounded-lg border p-2 w-full max-h-[240px] overflow-y-auto",searchValue !== "" && "visible")}>
         {data?.length === 0 && searchValue !== "" && (
           <p>Product "{searchValue}" not found!</p>
         )}
