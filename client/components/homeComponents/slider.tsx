@@ -37,7 +37,7 @@ const SliderStore: FC = () => {
       return (
         <div
           className={cn(
-            "w-4 h-4 rounded-full flex items-center justify-center cursor-pointer",
+            "w-4 h-4 rounded-full hidden lg:flex items-center justify-center cursor-pointer",
             index === currentSlide && "bg-black/10"
           )}
         >
@@ -52,25 +52,25 @@ const SliderStore: FC = () => {
     },
   };
   return (
-    <div className="h-[486px] w-full rounded-lg overflow-hidden">
-      <Slider {...settings} className="rounded-lg w-full h-[486px] relative">
-        <div className="w-full h-[486px] rounded-lg relative">
+    <div className="h-[260px] lg:h-[486px] w-full rounded-lg overflow-hidden">
+      <Slider {...settings} className="rounded-lg w-full h-[260px] lg:h-[486px] relative">
+        <div className="w-full h-[260px] lg:h-[486px] rounded-lg relative">
           <img
             className="absolute top-0 left-0 right-0 bottom-0 rounded-lg"
             src="/imgs/slider-image-1.jpg"
             alt="slider-image"
           />
-          <div className="flex flex-col absolute z-10 max-w-[70%] p-[5rem]">
+          <div className="flex flex-col absolute z-10 max-w-[70%] p-6 lg:p-[5rem]">
             <div className="flex items-center">
               <p className="font-dosis text-sm">ƯU ĐÃI ĐỘC QUYỀN</p>
               <div className="bg-gradient-to-r from-green-300 to-transparent px-3 py-1 text-green-800 font-bold font-dosis text-sm ml-2 rounded-full">
                 Giảm 20%
               </div>
             </div>
-            <h1 className="font-bold text-5xl leading-tight">
+            <h1 className="font-bold text-lg lg:text-5xl leading-tight">
               Chuyên gia trong cửa hàng tạp hóa
             </h1>
-            <p className="mt-2">Chỉ trong tuần này. Đừng bỏ lỡ...</p>
+            <p className="mt-2 text-xs">Chỉ trong tuần này. Đừng bỏ lỡ...</p>
             <div className="flex items-end gap-4 mt-4">
               <p>Giá chỉ từ</p>
               <b className="text-red-500 font-dosis  font-semibold text-4xl">
@@ -78,7 +78,7 @@ const SliderStore: FC = () => {
               </b>
             </div>
             <div
-              className="bg-background-second flex items-center justify-center gap-4 
+              className="bg-background-second hidden lg:flex items-center justify-center gap-4 
             w-[160px] rounded-full py-2 text-white mt-4"
             >
               <p className="font-semibold">Mua ngay</p>
@@ -87,6 +87,70 @@ const SliderStore: FC = () => {
           </div>
         </div>
         <div className="w-full h-[486px] rounded-lg relative">
+          <img
+            className="absolute top-0 left-0 right-0 bottom-0 rounded-lg"
+            src="/imgs/slider-image-1.jpg"
+            alt="slider-image"
+          />
+          <div className="flex flex-col absolute z-10 max-w-[70%] p-6 lg:p-[5rem]">
+            <div className="flex items-center">
+              <p className="font-dosis text-sm">ƯU ĐÃI ĐỘC QUYỀN</p>
+              <div className="bg-gradient-to-r from-green-300 to-transparent px-3 py-1 text-green-800 font-bold font-dosis text-sm ml-2 rounded-full">
+                Giảm 20%
+              </div>
+            </div>
+            <h1 className="font-bold text-lg lg:text-5xl leading-tight">
+              Chuyên gia trong cửa hàng tạp hóa
+            </h1>
+            <p className="mt-2 text-xs">Chỉ trong tuần này. Đừng bỏ lỡ...</p>
+            <div className="flex items-end gap-4 mt-4">
+              <p>Giá chỉ từ</p>
+              <b className="text-red-500 font-dosis  font-semibold text-4xl">
+                $7.99
+              </b>
+            </div>
+            <div
+              className="bg-background-second hidden md:flex lg:flex items-center justify-center gap-4 
+            w-[160px] rounded-full py-2 text-white mt-4"
+            >
+              <p className="font-semibold">Mua ngay</p>
+              <HiArrowNarrowRight className="" />
+            </div>
+          </div>
+        </div>
+        <div className="w-full h-[486px] rounded-lg relative">
+          <img
+            className="absolute top-0 left-0 right-0 bottom-0 rounded-lg"
+            src="/imgs/slider-image-1.jpg"
+            alt="slider-image"
+          />
+          <div className="flex flex-col absolute z-10 max-w-[70%] p-6 lg:p-[5rem]">
+            <div className="flex items-center">
+              <p className="font-dosis text-sm">ƯU ĐÃI ĐỘC QUYỀN</p>
+              <div className="bg-gradient-to-r from-green-300 to-transparent px-3 py-1 text-green-800 font-bold font-dosis text-sm ml-2 rounded-full">
+                Giảm 20%
+              </div>
+            </div>
+            <h1 className="font-bold text-lg lg:text-5xl leading-tight">
+              Chuyên gia trong cửa hàng tạp hóa
+            </h1>
+            <p className="mt-2 text-xs">Chỉ trong tuần này. Đừng bỏ lỡ...</p>
+            <div className="flex items-end gap-4 mt-4">
+              <p>Giá chỉ từ</p>
+              <b className="text-red-500 font-dosis  font-semibold text-4xl">
+                $7.99
+              </b>
+            </div>
+            <div
+              className="bg-background-second hidden lg:flex items-center justify-center gap-4 
+            w-[160px] rounded-full py-2 text-white mt-4"
+            >
+              <p className="font-semibold">Mua ngay</p>
+              <HiArrowNarrowRight className="" />
+            </div>
+          </div>
+        </div>
+        {/* <div className="w-full h-[486px] rounded-lg relative">
           <img
             className="absolute top-0 left-0 right-0 bottom-0 rounded-lg"
             src="/imgs/slider-image-2.jpg"
@@ -149,7 +213,7 @@ const SliderStore: FC = () => {
               <HiArrowNarrowRight className="" />
             </div>
           </div>
-        </div>
+        </div> */}
       </Slider>
     </div>
   );

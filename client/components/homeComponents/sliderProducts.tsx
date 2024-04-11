@@ -101,7 +101,7 @@ function SampleNextArrow(props: any) {
     <div
       onClick={onClick}
       className="absolute right-0 top-1/3 -translate-y-1/2 w-[42px] h-[42px] 
-    rounded-full border flex items-center justify-center translate-x-[21px]
+    rounded-full border flex items-center justify-center translate-x-[15px] lg:translate-x-[22px]
      bg-white cursor-pointer shadow-lg"
     >
       <FaChevronRight />
